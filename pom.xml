@@ -14,7 +14,7 @@
 	<name>Cloud Parking</name>
 	<description>Cloud Parking</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 		<springfox-swagger.version>2.9.2</springfox-swagger.version>
 		<modelmapper.version>2.3.5</modelmapper.version>
 		<testcontainers.version>1.15.0</testcontainers.version>
@@ -106,6 +106,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
