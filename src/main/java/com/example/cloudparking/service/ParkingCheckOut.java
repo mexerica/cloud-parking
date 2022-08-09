@@ -1,9 +1,9 @@
-package one.digitalinnovation.parking.service;
+package java.com.example.cloudparking.service;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
-import one.digitalinnovation.parking.model.Parking;
+import java.com.example.cloudparking.model.Parking;
 
 public class ParkingCheckOut {
 

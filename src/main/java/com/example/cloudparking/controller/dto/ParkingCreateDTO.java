@@ -1,4 +1,4 @@
-package one.digitalinnovation.parking.controller.dto;
+package java.com.example.cloudparking.controller.dto;
 
 public class ParkingCreateDTO {
 

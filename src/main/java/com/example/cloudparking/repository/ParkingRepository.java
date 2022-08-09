@@ -1,9 +1,9 @@
-package one.digitalinnovation.parking.repository;
+package java.com.example.cloudparking.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import one.digitalinnovation.parking.model.Parking;
+import java.com.example.cloudparking.model.Parking;
 
 @Repository
 public interface ParkingRepository extends JpaRepository<Parking, String> {

@@ -1,4 +1,4 @@
-package one.digitalinnovation.parking.controller;
+package java.com.example.cloudparking.controller;
 
 import java.util.List;
 
@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import one.digitalinnovation.parking.controller.dto.ParkingCreateDTO;
-import one.digitalinnovation.parking.controller.dto.ParkingDTO;
-import one.digitalinnovation.parking.controller.mapper.ParkingMapper;
-import one.digitalinnovation.parking.model.Parking;
-import one.digitalinnovation.parking.service.ParkingService;
+import java.com.example.cloudparking.controller.dto.ParkingCreateDTO;
+import java.com.example.cloudparking.controller.dto.ParkingDTO;
+import java.com.example.cloudparking.controller.mapper.ParkingMapper;
+import java.com.example.cloudparking.model.Parking;
+import java.com.example.cloudparking.service.ParkingService;
 
 @RestController
 @RequestMapping("/parking")

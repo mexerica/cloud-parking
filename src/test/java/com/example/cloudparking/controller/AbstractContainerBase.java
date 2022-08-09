@@ -1,4 +1,4 @@
-package one.digitalinnovation.parking.controller;
+package java.com.example.cloudparking.controller;
 
 import org.testcontainers.containers.PostgreSQLContainer;
 

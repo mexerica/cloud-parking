@@ -1,4 +1,4 @@
-package one.digitalinnovation.parking.controller;
+package java.com.example.cloudparking.controller;
 
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeEach;
@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 
 import io.restassured.RestAssured;
-import one.digitalinnovation.parking.controller.dto.ParkingCreateDTO;
+import java.com.example.cloudparking.controller.dto.ParkingCreateDTO;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class ParkingControllerTest extends AbstractContainerBase {

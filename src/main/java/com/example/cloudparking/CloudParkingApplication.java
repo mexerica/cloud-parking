@@ -1,4 +1,4 @@
-package one.digitalinnovation.parking;
+package java.com.example.cloudparking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

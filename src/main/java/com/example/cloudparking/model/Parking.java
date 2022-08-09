@@ -1,4 +1,4 @@
-package one.digitalinnovation.parking.model;
+package java.com.example.cloudparking.model;
 
 import java.time.LocalDateTime;
 

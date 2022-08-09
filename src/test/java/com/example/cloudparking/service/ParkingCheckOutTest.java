@@ -1,4 +1,4 @@
-package one.digitalinnovation.parking.service;
+package java.com.example.cloudparking.service;
 
 import org.junit.jupiter.api.Test;
 

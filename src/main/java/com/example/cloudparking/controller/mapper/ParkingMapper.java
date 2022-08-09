@@ -1,4 +1,4 @@
-package one.digitalinnovation.parking.controller.mapper;
+package java.com.example.cloudparking.controller.mapper;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
-import one.digitalinnovation.parking.controller.dto.ParkingCreateDTO;
-import one.digitalinnovation.parking.controller.dto.ParkingDTO;
-import one.digitalinnovation.parking.model.Parking;
+import java.com.example.cloudparking.controller.dto.ParkingCreateDTO;
+import java.com.example.cloudparking.controller.dto.ParkingDTO;
+import java.com.example.cloudparking.model.Parking;
 
 @Component
 public class ParkingMapper {

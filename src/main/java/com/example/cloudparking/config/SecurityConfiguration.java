@@ -1,4 +1,4 @@
-package one.digitalinnovation.parking.config;
+package java.com.example.cloudparking.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
